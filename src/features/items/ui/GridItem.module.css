@@ -12,5 +12,13 @@
 .title {
 	color: var(--color-text);
 	font-size: 36px;
-	font-weight: 500;
+	font-weight: 400;
+}
+
+.content {
+	color: var(--color-text);
+	font-family: "Big Shoulders", sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 1.5;
 }

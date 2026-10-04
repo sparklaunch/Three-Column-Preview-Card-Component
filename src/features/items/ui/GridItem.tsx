@@ -18,6 +18,7 @@ export default function GridItem({ item }: { item: Item }) {
 				className={styles.icon}
 			/>
 			<h2 className={styles.title}>{item.title}</h2>
+			<p className={styles.content}>{item.content}</p>
 		</section>
 	);
 }
