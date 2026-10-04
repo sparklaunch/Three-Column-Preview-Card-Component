@@ -19,3 +19,10 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+@media (max-width: 1000px) {
+	body {
+		height: auto;
+		padding: 50px;
+	}
+}
