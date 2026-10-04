@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { items } from "../../db.json";
 import Item from "../domain/item/Item";
 import GridItem from "../features/items/ui/GridItem";
 import styles from "./Home.module.css";
 
 export default function Home() {
-	const [items, setItems] = useState<Item[]>([]);
+	const [gridItems, setGridItems] = useState<Item[]>([]);
 	useEffect(() => {
-		setItems(items);
+		setGridItems(items);
 	}, []);
 	return (
 		<main className={styles.main}>

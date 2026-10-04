@@ -1,4 +1,16 @@
 .section {
 	display: flex;
 	flex-direction: column;
+	padding: 50px;
+	gap: 20px;
+}
+
+.icon {
+	object-fit: contain;
+}
+
+.title {
+	color: var(--color-text);
+	font-size: 36px;
+	font-weight: 500;
 }
