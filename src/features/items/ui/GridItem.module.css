@@ -1,6 +1,7 @@
 .section {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	padding: 50px;
 	gap: 20px;
 }
@@ -21,4 +22,14 @@
 	font-size: 18px;
 	font-weight: 100;
 	line-height: 1.5;
+}
+
+.learnButton {
+	border: none;
+	background-color: rgb(--color-background);
+	padding: 12px 32px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-family: "Big Shoulders", sans-serif;
+	margin-top: 80px;
 }

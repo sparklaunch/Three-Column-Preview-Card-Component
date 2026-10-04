@@ -19,6 +19,15 @@ export default function GridItem({ item }: { item: Item }) {
 			/>
 			<h2 className={styles.title}>{item.title}</h2>
 			<p className={styles.content}>{item.content}</p>
+			<button
+				type="button"
+				className={styles.learnButton}
+				style={{
+					color: `var(--color-${item.color})`
+				}}
+			>
+				Learn More
+			</button>
 		</section>
 	);
 }
