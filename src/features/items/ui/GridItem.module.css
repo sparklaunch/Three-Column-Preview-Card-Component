@@ -25,11 +25,20 @@
 }
 
 .learnButton {
-	border: none;
+	border: 3px solid transparent;
 	background-color: rgb(--color-background);
 	padding: 12px 32px;
 	border-radius: 50px;
 	cursor: pointer;
 	font-family: "Big Shoulders", sans-serif;
 	margin-top: 80px;
+	transition:
+		background-color 0.2s,
+		border 0.2s;
+}
+
+.learnButton:hover {
+	border: 3px solid white;
+	color: white !important;
+	background-color: transparent;
 }
