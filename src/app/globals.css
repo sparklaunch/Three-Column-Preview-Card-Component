@@ -1,0 +1,13 @@
+:root {
+	--color-background: rgb(240, 240, 240);
+	--color-text: rgb(240, 240, 240);
+	--color-sedans: rgb(222, 122, 33);
+	--color-suvs: rgb(3, 94, 103);
+	--color-luxury: rgb(0, 56, 55);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
